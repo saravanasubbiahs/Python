@@ -13,3 +13,7 @@
 
 ## printing Hello world program
 print('Hello World')
+
+### we can use both single and double quotes within the parentheses
+print('Single quotes')
+print("Double quotes")
