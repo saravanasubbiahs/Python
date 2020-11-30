@@ -17,3 +17,7 @@ print('Hello World')
 ### we can use both single and double quotes within the parentheses
 print('Single quotes')
 print("Double quotes")
+
+### Getting input from user
+name = input("Enter your name ")
+print("Hello " + name)
