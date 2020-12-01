@@ -28,8 +28,26 @@ print('This is saravana\'s friend')
 # we can use print statement to even do mathematical calculations.
 print(1+2)
 
+# addition
 # here we have assigned the values to the variables and then calculated and stored in variable c and atlast printed the value.
 a = 1
 b = 2
 c = a + b
 print(c)
+
+# subtraction
+print(4-2)
+
+# multiplication
+mul = 3 * 2
+print(mul)
+
+# division
+# In python division reults in a decimal value by default.
+print(6/2)
+
+# floor divion
+# To get integer value of divion operation floor division is used. 
+# It is denoted by //
+print(6//2)
+
