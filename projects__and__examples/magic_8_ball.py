@@ -1,7 +1,7 @@
 import random
 
 ### This is magic_8_ball , used for fortune telling and also for seeking advice.
-print("Welcome")
+print("\n Welcome")
 
 
 def answer(num):
@@ -29,7 +29,7 @@ def answer(num):
     elif num == 7:
         print("Yes, definitely")
 
-print("Think of a Yes / No question, and press enter to see the answer given by magic 8 ball")
+print("\n Think of a Yes / No question, and press enter to see the answer given by magic 8 ball")
 input()
 
 answer(random.randint(0 , 7))
