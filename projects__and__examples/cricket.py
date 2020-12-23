@@ -8,6 +8,8 @@ while out == True:
 
     computer = random.randint(1,5)
 
+    run =0
+    
     if toss == 'batting':   
         cho = True
         score = 0
@@ -27,6 +29,9 @@ while out == True:
             except ValueError:
                 print("Enter a valid number between 1 to 5")
                 cho = True
+        if run > 0:        
+            if score > run:
+                print("You have won the game")
     else:
         print("start bowling")
         print("Enter numbers between 1 to 5")
